@@ -1,0 +1,149 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://tilesets/1.png" type="Texture" id=1]
+[ext_resource path="res://tilesets/2.png" type="Texture" id=2]
+[ext_resource path="res://tilesets/3.png" type="Texture" id=3]
+[ext_resource path="res://tilesets/4.png" type="Texture" id=4]
+[ext_resource path="res://tilesets/5.png" type="Texture" id=5]
+[ext_resource path="res://tilesets/6.png" type="Texture" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+
+custom_solver_bias = 0.0
+extents = Vector2( 63.8837, 62.9648 )
+
+[node name="Node" type="Node"]
+
+[node name="suelo_1" type="Sprite" parent="." index="0"]
+
+editor/display_folded = true
+position = Vector2( -97.8052, 84.8365 )
+texture = ExtResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="suelo_1" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="suelo_1/StaticBody2D" index="0"]
+
+position = Vector2( 0, 0.540359 )
+shape = SubResource( 1 )
+
+[node name="suelo_2" type="Sprite" parent="." index="1"]
+
+editor/display_folded = true
+position = Vector2( -97.8052, 84.8365 )
+texture = ExtResource( 2 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="suelo_2" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="suelo_2/StaticBody2D" index="0"]
+
+position = Vector2( 0, 0.540359 )
+shape = SubResource( 1 )
+
+[node name="suelo_3" type="Sprite" parent="." index="2"]
+
+editor/display_folded = true
+position = Vector2( -97.8052, 84.8365 )
+texture = ExtResource( 3 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="suelo_3" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="suelo_3/StaticBody2D" index="0"]
+
+position = Vector2( 0, 0.540359 )
+shape = SubResource( 1 )
+
+[node name="suelo_4" type="Sprite" parent="." index="3"]
+
+editor/display_folded = true
+position = Vector2( -97.8052, 84.8365 )
+texture = ExtResource( 4 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="suelo_4" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="suelo_4/StaticBody2D" index="0"]
+
+position = Vector2( 0, 0.540359 )
+shape = SubResource( 1 )
+
+[node name="suelo_5" type="Sprite" parent="." index="4"]
+
+editor/display_folded = true
+position = Vector2( -97.8052, 84.8365 )
+texture = ExtResource( 5 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="suelo_5" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="suelo_5/StaticBody2D" index="0"]
+
+position = Vector2( 0, 0.540359 )
+shape = SubResource( 1 )
+
+[node name="suelo_6" type="Sprite" parent="." index="5"]
+
+editor/display_folded = true
+position = Vector2( -97.8052, 84.8365 )
+texture = ExtResource( 6 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="suelo_6" index="0"]
+
+editor/display_folded = true
+input_pickable = false
+collision_layer = 1
+collision_mask = 1
+constant_linear_velocity = Vector2( 0, 0 )
+constant_angular_velocity = 0.0
+friction = 1.0
+bounce = 0.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="suelo_6/StaticBody2D" index="0"]
+
+position = Vector2( 0, 0.540359 )
+shape = SubResource( 1 )
+
+
