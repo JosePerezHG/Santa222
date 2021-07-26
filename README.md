@@ -1,2 +1,2 @@
 # Santa222
-Prueba 2 de GitHub, esta vez con Git, del santa.
+Este proyecto se abre en Godot, es el prototipo del movimiento de un personaje: desplazamiento horizontal y salto, manejo básico de Sprite y Collaider y tilesets. 
